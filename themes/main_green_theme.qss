@@ -1,0 +1,261 @@
+QWidget {
+    color: #333;
+    font: 10pt "Segoe UI";
+}
+
+/* Tooltip */
+QToolTip {
+    color: #333;
+    background-color: #f8f8f2;
+    border: 1px solid #CCC;
+    background-image: none;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 2px solid #FFF59D;
+    text-align: left;
+    padding-left: 8px;
+    margin: 0px;
+}
+
+/* Bg App */
+#bgApp {
+    background-color: #f8f8f2;
+    border: 1px solid #CCC;
+    color: #3A7D43;
+}
+
+/* Left Menu */
+#leftMenuBg {
+    background-color: #6AAB6D;
+}
+
+#topLogo {
+    background-color: #6AAB6D;
+
+}
+
+#titleLeftApp {
+    font: 63 12pt "Segoe UI Semibold";
+    color: #f8f8f2;
+}
+
+#titleLeftDescription {
+    font: 8pt "Segoe UI";
+    color: #8BC34A;
+}
+
+/* MENUS */
+#topMenu .QPushButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 22px solid transparent;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 44px;
+    color: #f8f8f2;
+}
+
+#topMenu .QPushButton:hover {
+    background-color: #8BC34A;
+}
+
+#topMenu .QPushButton:pressed {
+    background-color: #FFF59D;
+    color: rgb(255, 255, 255);
+}
+
+#bottomMenu .QPushButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 20px solid transparent;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 44px;
+    color: #f8f8f2;
+}
+
+#bottomMenu .QPushButton:hover {
+    background-color: #8BC34A;
+}
+
+#bottomMenu .QPushButton:pressed {
+    background-color: #FFF59D;
+    color: rgb(255, 255, 255);
+}
+
+#leftMenuFrame {
+    border-top: 3px solid #77B27A;
+}
+
+/* Toggle Button */
+#toggleButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 20px solid transparent;
+    background-color: #519D55;
+    text-align: left;
+    padding-left: 44px;
+    color: #f8f8f2;
+}
+
+#toggleButton:hover {
+    background-color: #8BC34A;
+}
+
+#toggleButton:pressed {
+    background-color: #FFF59D;
+    color: rgb(255, 255, 255);
+}
+
+/* Title Menu */
+#titleRightInfo {
+    padding-left: 10px;
+}
+
+
+/* Extra Tab */
+#extraLeftBox {
+    background-color: #3B7447;
+    color: #f8f8f2;
+}
+
+#extraTopBg {
+    background-color: #A9D277
+}
+
+/* Icon */
+#extraIcon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(:/icons/images/icons/icon_settings.png);
+}
+
+/* Label */
+#extraLabel {
+    color: rgb(255, 255, 255);
+}
+
+/* Btn Close */
+#extraCloseColumnBtn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+#extraCloseColumnBtn:hover {
+    background-color: #FFF59D;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#extraCloseColumnBtn:pressed {
+    background-color: #FFF59D;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+/* Extra Content */
+#extraContent {
+    border-top: 3px solid #6AAB6D;
+}
+
+/* Extra Top Menus */
+#extraTopMenu .QPushButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 22px solid transparent;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 44px;
+    color: #f8f8f2;
+}
+
+#extraTopMenu .QPushButton:hover {
+    background-color: #5EA461;
+}
+
+#extraTopMenu .QPushButton:pressed {
+    background-color: #8BC34A;
+    color: rgb(255, 255, 255);
+}
+
+/* Content App */
+#contentTopBg {
+    background-color: #6AAB6D;
+}
+
+#contentBottom {
+    border-top: 3px solid #8BC34A;
+}
+
+#titleRightInfo {
+    color: #f8f8f2;
+}
+
+/* Top Buttons */
+#rightButtons .QPushButton {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+#rightButtons .QPushButton:hover {
+    background-color: #8BC34A;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#rightButtons .QPushButton:pressed {
+    background-color: #FFF59D;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+/* Theme Settings */
+#extraRightBox {
+    background-color: #3B7447;
+}
+
+#themeSettingsTopDetail {
+    background-color: #6AAB6D;
+}
+
+/* Bottom Bar */
+#bottomBar {
+    background-color: #3B7447
+}
+
+#bottomBar QLabel {
+    font-size: 11px;
+    color: #f8f8f2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+/* CONTENT SETTINGS */
+/* MENUS */
+#contentSettings .QPushButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 22px solid transparent;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 44px;
+    color: #f8f8f2;
+}
+
+#contentSettings .QPushButton:hover {
+    background-color: #5EA461;
+}
+
+#contentSettings .QPushButton:pressed {
+    background-color: #8BC34A;
+    color: rgb(255, 255, 255);
+}

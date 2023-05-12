@@ -1,0 +1,129 @@
+QWidget {
+    color: #333;
+    font: 10pt "Segoe UI";
+}
+
+/* Tooltip */
+QToolTip {
+    color: #333;
+    background-color: #f8f8f2;
+    border: 1px solid #CCC;
+    background-image: none;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 2px solid #FFF59D;
+    text-align: left;
+    padding-left: 8px;
+    margin: 0px;
+}
+
+/* Bg App */
+#bgApp {
+    background-color: #f8f8f2;
+    border: 1px solid #CCC;
+    color: #3A7D43;
+}
+
+/* Content App */
+#contentTopBg {
+    background-color: #6AAB6D;
+}
+
+#contentBottom {
+    border-top: 3px solid #8BC34A;
+}
+
+#titleRightInfo {
+    color: #f8f8f2;
+}
+
+/* Bottom Bar */
+#bottomBar {
+    background-color: #3B7447
+}
+
+#bottomBar QLabel {
+    font-size: 11px;
+    color: #f8f8f2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+/* MENUS */
+#contentSettings .QPushButton {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 22px solid transparent;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 44px;
+    color: #f8f8f2;
+}
+
+#contentSettings .QPushButton:hover {
+    background-color: #5EA461;
+}
+
+#contentSettings .QPushButton:pressed {
+    background-color: #8BC34A;
+    color: rgb(255, 255, 255);
+}
+
+/*LineEdit */
+QLineEdit {
+    background-color: #6AAB6D;
+    border-radius: 5px;
+    border: 2px solid #6AAB6D;
+    padding-left: 10px;
+    selection-color: rgb(255, 255, 255);
+    selection-background-color: #FFF59D;
+    color: #f8f8f2;
+}
+
+QLineEdit:hover {
+    border: 2px solid #3C6B4A;
+}
+
+QLineEdit:focus {
+    border: 2px solid #FFF59D;
+}
+
+/* Button */
+QPushButton {
+    border: 2px solid #6AAB6D;
+    border-radius: 5px;
+    background-color: #6AAB6D;
+    color: #f8f8f2;
+}
+
+QPushButton:hover {
+    background-color: #83B986;
+    border: 2px solid #83B986;
+}
+
+QPushButton:pressed {
+    background-color: #388E3C;
+    border: 2px solid #FFF59D;
+}
+
+/* Top Buttons */
+#rightButtons .QPushButton {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+#rightButtons .QPushButton:hover {
+    background-color: #8BC34A;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+#rightButtons .QPushButton:pressed {
+    background-color: #FFF59D;
+    border-style: solid;
+    border-radius: 4px;
+}
